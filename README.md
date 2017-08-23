@@ -5,7 +5,7 @@
 
 Link: https://wwf-matchup.herokuapp.com/
 
-![Preview Image](/assets/images/Capture3.PNG)
+![Preview Image](https://raw.githubusercontent.com/taylorcaton/WWF-Matchup/master/previewImage.PNG)
 
 Credits: 
 * [Node.js](https://nodejs.org/)
