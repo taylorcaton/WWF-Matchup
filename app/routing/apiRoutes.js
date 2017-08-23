@@ -48,8 +48,6 @@ module.exports = (function() {
     });
 
     api.post("/replace", function(req, res) {
-        
-        console.log("Inside the post function")
 
         jsonfile.readFile(backupFile, function(err, obj) {  //Read from json
             if(err) console.log(err); 
@@ -64,6 +62,15 @@ module.exports = (function() {
         })
     
     });
+
+    api.get("/wrestlers", function(req, res){
+
+        jsonfile.readFile(file, function(err, obj) {  //Read from json
+
+            res.json(obj); //Send a response with the best matched wrestler
+
+        })
+    })
 
     return api;
 })();
