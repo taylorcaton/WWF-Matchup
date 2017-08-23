@@ -1,7 +1,7 @@
 # WWF-Matchup
 
 ### An "tinder-like" app that uses Node.js, Express.js as a web framework, HTML, jQuery, and BootStrap.
-### Users answer a breif survey to reavel their most "evenly-matched" rival would be!
+### Users answer a brief survey to reavel their most "evenly-matched" rival would be!
 
 Link: https://wwf-matchup.herokuapp.com/
 
